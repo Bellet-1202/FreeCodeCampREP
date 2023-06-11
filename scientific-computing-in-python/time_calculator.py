@@ -77,4 +77,3 @@ def add_time(start, duration, DayOfTheWeek=None):
     new_time = hoursS + ", " + Week[position] + DaysLater
  
   return new_time
-print(add_time(1,1,3))
